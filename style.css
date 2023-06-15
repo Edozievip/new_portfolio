@@ -1,0 +1,116 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+#container1 {
+    background-color: rgba(238, 242, 243, 0.993);
+    width: 100%;
+    /* height: 500px; */
+
+}
+
+ #cont1 {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 100px;
+    height: 40px;
+    
+}
+
+h1#font1 {
+    color:aquamarine;
+    font-size: 48px;
+    font-family: system-ui;
+    text-align: center;
+    margin-top: 0px;
+}
+
+#font2{
+    color: aquamarine;
+    font-size: 35px;
+}
+
+#cloud_img1 {
+padding: 0 0 0 100px;
+height: 40px;
+}
+
+#container1 #img3 {
+    display: flex;
+    margin: 0 auto;
+    width: 300px;
+    height: 150px;
+    padding-top: 0;
+}
+
+#profile_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.pic {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+#text {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#text p {
+    font-size: 10px;
+}
+
+#top_marg {
+    margin-top: 30px;
+}
+
+#text h3 {
+    font-family: 'Lucida Sans';
+    color: aquamarine;
+    margin-bottom: 30px;
+}
+
+hr {
+    height: 4px;
+    background-color: red;
+    width: 800px;
+    margin: 0 auto;
+}
+
+#skill_box {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 800px;
+}
+
+#skill_txt, h1, p{
+    margin: 20px;
+}
+
+#pics {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: nowrap; */
+    width: 800px;
+    flex-shrink: 100px;
+
+}
+
+#pics, img {
+    width: 300px;
+    height: 400px;
+}
+
+#text2 {
+    text-align: center;
+}

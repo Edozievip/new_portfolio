@@ -1,0 +1,17 @@
+#container1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+#container1 img {
+    flex: 0 0 33.33%;
+}
+
+#container1 img:nth-child(2) {
+    align-self: flex-start;
+}
+
+#container1 img:nth-child(3) {
+    margin: 0 auto;
+}
